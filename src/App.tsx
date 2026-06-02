@@ -67,11 +67,14 @@ export default function App() {
             onClick={() => scrollToSection("hero-section")}
             className="flex items-center gap-3.5 text-left group cursor-pointer"
           >
-            {/* Custom rotatable blueprint diamond branding */}
-            <div className="w-10 h-10 bg-[#0A0A0A] text-[#F59E0B] border border-neutral-800 flex items-center justify-center relative overflow-hidden rotate-45 group-hover:rotate-90 transition-all duration-500">
-              <div className="-rotate-45 group-hover:-rotate-90 transition-all duration-550">
-                <LucideIcon name="Zap" size={16} className="fill-current text-[#F59E0B]" />
-              </div>
+            {/* Custom brand logo image */}
+            <div className="w-10 h-10 bg-white border border-neutral-200 flex items-center justify-center relative overflow-hidden group-hover:scale-110 transition-all duration-300">
+              <img
+                src="https://imgur.com/jFoLUBM.png"
+                alt="ANIOBA Logo"
+                className="h-full w-full object-contain"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <div className="pl-1">
               <div className="font-extrabold text-sm sm:text-base tracking-widest text-[#0A0A0A] flex items-center gap-1.5 leading-none font-display uppercase">
@@ -366,15 +369,15 @@ export default function App() {
               
               <div className="space-y-2">
                 <span className="text-[10px] font-extrabold text-[#F59E0B] uppercase tracking-widest font-mono">
-                  Who We Are
+                  Corporate Statement
                 </span>
                 <h2 className="text-2xl sm:text-4xl font-extrabold font-display text-[#0A0A0A] tracking-tight uppercase">
                   Your Partner in Power & Construction Excellence
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-neutral-600 leading-relaxed font-sans">
-                ANIOBA Multipurpose Enterprise global ltd provides professional electrical installation, solar setup, construction consulting, and contracting services tailored for residential, commercial, and industrial projects.
+              <p className="text-sm sm:text-base text-neutral-800 leading-relaxed font-sans font-medium border-l-4 border-[#F59E0B] pl-4 italic">
+                Anioba Multipurpose Global Ltd is built on the belief that structures should outlast their creators. Whether we are engineering power systems for schools, constructing barracks for those who protect the nation, or designing modern spaces, we bring an uncompromising standard of excellence. We are bigger, legally stronger, and fully equipped to bring your vision to life.
               </p>
 
               {/* Three key commitments */}
@@ -970,10 +973,13 @@ export default function App() {
                 onClick={() => scrollToSection("hero-section")}
                 className="flex items-center gap-4 text-left group cursor-pointer text-white font-mono"
               >
-                <div className="w-8 h-8 bg-neutral-900 border border-neutral-805 rotate-45 flex items-center justify-center">
-                  <div className="-rotate-45">
-                    <LucideIcon name="Zap" size={14} className="text-[#F59E0B]" />
-                  </div>
+                <div className="w-8 h-8 bg-white border border-neutral-805 flex items-center justify-center overflow-hidden">
+                  <img
+                    src="https://imgur.com/jFoLUBM.png"
+                    alt="ANIOBA Logo"
+                    className="h-full w-full object-contain"
+                    referrerPolicy="no-referrer"
+                  />
                 </div>
                 <div>
                   <div className="font-extrabold text-xs tracking-wider flex items-center gap-1 leading-none uppercase">
@@ -1055,7 +1061,7 @@ export default function App() {
                 Operations Registry
               </h4>
               <p className="text-xs text-neutral-400 leading-relaxed font-sans">
-                RC Number: 1982753 <br />
+                RC Number: 9585507 <br />
                 Licensed Grid Contractor <br />
                 National Construction Council Member
               </p>
