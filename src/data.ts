@@ -274,23 +274,23 @@ export const TESTIMONIALS: Testimonial[] = [
 export const FOUNDERS: Founder[] = [
   {
     id: 1,
-    name: "Alhaji Olawale Anioba",
+    name: "Engr. Adebayo Olalekan Abubakar (Chairman, CEO, Director)",
     designation: "Founder & Managing Director",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&h=400&q=80",
+    image: "https://imgur.com/7GU4ozM.png",
     bio: "A visionary leader with over 15 years of standard-certified expertise in high-voltage electrical procurement, commercial logistics, and heavy infrastructure management. He guides the general strategic trajectory and ensures perfect engineering sourcing."
   },
   {
     id: 2,
-    name: "Engr. Fatima Adeoba",
-    designation: "Co-Founder & Technical Director",
-    image: "https://imgur.com/SIkVcTm.png",
+    name: "Mr. Ismail Ayoyinka Adebayo (Planning and Technical Director)",
+    designation: "Planning & Technical Director",
+    image: "https://imgur.com/lfuM8Up.png",
     bio: "An elite power and structural systems specialist who oversees major mechanical blueprint validations, structural load calculations, and comprehensive safety auditing across all of our sites."
   },
   {
     id: 3,
-    name: "Mr. Gregory Thompson",
-    designation: "Operations Partner & Site Director",
-    image: "https://imgur.com/kVqYjby.png",
+    name: "Mr. Shuaib Abiodun Adebayo (Operation Manager)",
+    designation: "Operation Manager",
+    image: "https://imgur.com/ZVbZbb3.png",
     bio: "A seasoned field operator directing physical site supervision, subcontractor scheduling, dynamic inspections, and turnkey contracting project completions for high-profile developers."
   }
 ];
