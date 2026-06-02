@@ -1074,7 +1074,10 @@ export default function App() {
           {/* Copyright signature */}
           <div className="mt-12 pt-8 border-t border-neutral-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-neutral-550 font-sans">
             <div>
-              &copy; {new Date().getFullYear()} ANIOBA Multipurpose Enterprise global ltd. All Technical Rights Reserved.
+              <p>&copy; {new Date().getFullYear()} ANIOBA Multipurpose Enterprise global ltd. All Technical Rights Reserved.</p>
+              <p className="text-[11px] text-neutral-500 mt-1">
+                Designed &amp; Developed by <span className="text-[#F59E0B] font-mono">Quotients Digital Horizon Ltd</span>
+              </p>
             </div>
             <div className="flex gap-4 font-mono text-[9px] uppercase tracking-widest">
               <a href="#about-section" className="hover:text-[#F59E0B] transition-colors font-mono">Privacy Policy</a>
