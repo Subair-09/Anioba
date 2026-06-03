@@ -18,6 +18,7 @@ export default function App() {
   const [activeServiceModal, setActiveServiceModal] = useState<Service | null>(null);
   const [selectedQuoteService, setSelectedQuoteService] = useState<string>("");
   const [passedSolarEstimate, setPassedSolarEstimate] = useState<string>("");
+  const [activeProjectImage, setActiveProjectImage] = useState<string | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -94,6 +95,7 @@ export default function App() {
               { label: "About", target: "about-section" },
               { label: "Services", target: "services-section" },
               { label: "Solar Showcase", target: "solar-section" },
+              { label: "Projects", target: "completed-projects-section" },
               { label: "Our Blueprint", target: "process-section" },
               { label: "Reviews", target: "testimonials-section" },
               { label: "Materials Desk", target: "materials-request-section" },
@@ -154,6 +156,7 @@ export default function App() {
               { label: "About Anioba", target: "about-section" },
               { label: "Our Services", target: "services-section" },
               { label: "Solar grid dynamic", target: "solar-section" },
+              { label: "Projects", target: "completed-projects-section" },
               { label: "Timeline process", target: "process-section" },
               { label: "Client reviews", target: "testimonials-section" },
               { label: "Materials Request Portal", target: "materials-request-section" },
@@ -728,6 +731,303 @@ export default function App() {
         </div>
       </section>
 
+      {/* ================= STRATEGIC PROJECTS PORTFOLIO ================= */}
+      <section
+        id="completed-projects-section"
+        className="py-16 sm:py-24 bg-neutral-900 text-white relative overflow-hidden border-b border-neutral-950"
+      >
+        {/* Fine grid overlay for building blueprint feel */}
+        <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none" />
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          
+          {/* Centered Heading */}
+          <div className="max-w-3xl mx-auto text-center space-y-3 mb-12 sm:mb-16">
+            <span className="text-[10px] font-extrabold text-[#F59E0B] uppercase tracking-widest font-mono">
+              Operational Proof &amp; Live Sites
+            </span>
+            <h2 className="text-2xl sm:text-4xl font-extrabold font-display text-white tracking-tight uppercase">
+              Our Strategic Projects Portfolio
+            </h2>
+            <p className="text-xs sm:text-sm text-neutral-400 font-sans max-w-2xl mx-auto">
+              Inspect physical blueprints, actual construction elevations, and active/completed operations under strict military-standards and structural compliance.
+            </p>
+          </div>
+
+          <div className="space-y-12 sm:space-y-16">
+            
+            {/* Featured Showcase Layout (Project 1 - Completed) */}
+            <div className="bg-neutral-950 border border-neutral-800 rounded-none p-6 sm:p-8 lg:p-10 relative group">
+              
+              {/* Top decorative header detail */}
+              <div className="flex flex-wrap items-center justify-between gap-4 border-b border-neutral-850 pb-6 mb-8 text-xs font-mono">
+                <div className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#F59E0B] animate-pulse" />
+                  <span className="font-bold uppercase tracking-wider text-[#F59E0B]">
+                    PROJECT ID: ANIOBA_134BTN_LGS
+                  </span>
+                </div>
+                <div className="text-neutral-500 uppercase tracking-widest text-[10px] font-bold bg-neutral-900/60 px-2 py-0.5 border border-neutral-850">
+                  STATUS: 100% COMPLETE &amp; HANDED OVER
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                
+                {/* Left Column: Project Details */}
+                <div className="lg:col-span-5 space-y-6">
+                  <div>
+                    <span className="text-[9px] font-extrabold text-[#F59E0B] uppercase tracking-wider font-mono">
+                      MILITARY INFRASTRUCTURE SCHEME
+                    </span>
+                    <h3 className="text-xl sm:text-2xl font-extrabold font-display text-white tracking-tight uppercase mt-1 leading-tight">
+                      Semi-Detached Non-Commissioned Officers' Housing
+                    </h3>
+                    <div className="flex items-center gap-2 mt-3 text-[#F59E0B]">
+                      <LucideIcon name="MapPin" size={14} />
+                      <span className="text-xs font-medium font-sans text-neutral-300">
+                        134 Battalion, Odogunyan, Ikorodu, Lagos State
+                      </span>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-neutral-400 leading-relaxed font-sans">
+                    We successfully executed the turnkey masonry, structural steel layout, electrical distribution arrays, and finishings for this military housing unit. Built from premium-grade sourced materials to withstand intense institutional operational loads, the project completed full structural wind-bearing, foundation density, and final electrical safety audits with 100% compliance.
+                  </p>
+
+                  {/* Key specs grid */}
+                  <div className="grid grid-cols-2 gap-4 pt-2 border-t border-dashed border-neutral-800">
+                    <div className="p-3 bg-neutral-900/50 border border-neutral-850">
+                      <p className="text-[9px] font-mono font-bold text-neutral-500 uppercase">
+                        Operational Area
+                      </p>
+                      <p className="text-xs font-bold font-mono text-white mt-0.5">
+                        134 Battalion HQ Block
+                      </p>
+                    </div>
+                    <div className="p-3 bg-neutral-900/50 border border-neutral-850">
+                      <p className="text-[9px] font-mono font-bold text-neutral-500 uppercase">
+                        Execution Period
+                      </p>
+                      <p className="text-xs font-bold font-mono text-white mt-0.5">
+                        120 Days (Handover On-Time)
+                      </p>
+                    </div>
+                    <div className="p-3 bg-neutral-900/50 border border-neutral-850">
+                      <p className="text-[9px] font-mono font-bold text-neutral-500 uppercase">
+                        Auditor Rating
+                      </p>
+                      <p className="text-xs font-bold font-mono text-[#F59E0B] mt-0.5">
+                        GRADE-A Compliance
+                      </p>
+                    </div>
+                    <div className="p-3 bg-neutral-900/50 border border-neutral-850">
+                      <p className="text-[9px] font-mono font-bold text-neutral-500 uppercase">
+                        Masonry Strength
+                      </p>
+                      <p className="text-xs font-bold font-mono text-white mt-0.5">
+                        C30/37 Concrete Density
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Trust guarantee seal */}
+                  <div className="flex items-center gap-3.5 p-3.5 bg-neutral-900 border-l-2 border-[#F59E0B] border-y border-r border-neutral-850">
+                    <LucideIcon name="ShieldCheck" size={18} className="text-[#F59E0B]" />
+                    <p className="text-[11px] text-neutral-400 font-sans leading-relaxed">
+                      Designed and audited under direct supervision of our Planning and Operations Directorate.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Right Column: Photos Layout */}
+                <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  
+                  {/* Image 1 Card */}
+                  <div 
+                    className="bg-neutral-900 border border-neutral-800 p-3 hover:border-neutral-550 group/img transition-all duration-300 relative cursor-pointer"
+                    onClick={() => setActiveProjectImage("https://imgur.com/KfSz51J.png")}
+                    id="project-image-h1"
+                  >
+                    <p className="text-[9px] font-mono font-bold text-neutral-500 mb-2 flex justify-between items-center bg-neutral-950 p-1.5 border border-neutral-850">
+                      <span>ELEVATION ANGLE_01 // COMPLETED BLOCK</span>
+                      <span className="text-[#F59E0B]">ZOOM IMAGE</span>
+                    </p>
+                    <div className="relative aspect-[4/3] bg-neutral-950 overflow-hidden">
+                      <img 
+                        src="https://imgur.com/KfSz51J.png" 
+                        alt="134 Battalion Odogunyan Project Angle 1" 
+                        className="w-full h-full object-cover grayscale group-hover/img:grayscale-0 group-hover/img:scale-105 transition-all duration-500"
+                        referrerPolicy="no-referrer"
+                      />
+                      <div className="absolute inset-0 bg-black/10 group-hover/img:bg-transparent transition-colors pointer-events-none" />
+                    </div>
+                    <div className="mt-2.5 flex items-center justify-between text-[11px] font-sans text-neutral-400">
+                      <span className="font-mono text-[9px] text-[#F59E0B]">NCO BLOCK FRONTAGE</span>
+                      <LucideIcon name="Eye" size={12} className="text-neutral-500 group-hover/img:text-[#F59E0B] transition-colors" />
+                    </div>
+                  </div>
+
+                  {/* Image 2 Card */}
+                  <div 
+                    className="bg-neutral-900 border border-neutral-800 p-3 hover:border-neutral-550 group/img transition-all duration-300 relative cursor-pointer"
+                    onClick={() => setActiveProjectImage("https://imgur.com/Ln3CDdV.png")}
+                    id="project-image-h2"
+                  >
+                    <p className="text-[9px] font-mono font-bold text-neutral-500 mb-2 flex justify-between items-center bg-neutral-950 p-1.5 border border-neutral-850">
+                      <span>ELEVATION ANGLE_02 // COMPLETED BLOCK</span>
+                      <span className="text-[#F59E0B]">ZOOM IMAGE</span>
+                    </p>
+                    <div className="relative aspect-[4/3] bg-neutral-950 overflow-hidden">
+                      <img 
+                        src="https://imgur.com/Ln3CDdV.png" 
+                        alt="134 Battalion Odogunyan Project Angle 2" 
+                        className="w-full h-full object-cover grayscale group-hover/img:grayscale-0 group-hover/img:scale-105 transition-all duration-500"
+                        referrerPolicy="no-referrer"
+                      />
+                      <div className="absolute inset-0 bg-black/10 group-hover/img:bg-transparent transition-colors pointer-events-none" />
+                    </div>
+                    <div className="mt-2.5 flex items-center justify-between text-[11px] font-sans text-neutral-400">
+                      <span className="font-mono text-[9px] text-[#F59E0B]">NCO BLOCK COMPLEMENTARY</span>
+                      <LucideIcon name="Eye" size={12} className="text-neutral-500 group-hover/img:text-[#F59E0B] transition-colors" />
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            {/* Featured Showcase Layout (Project 2 - Ongoing) */}
+            <div className="bg-neutral-950 border border-neutral-800 rounded-none p-6 sm:p-8 lg:p-10 relative group">
+              
+              {/* Top decorative header detail */}
+              <div className="flex flex-wrap items-center justify-between gap-4 border-b border-neutral-850 pb-6 mb-8 text-xs font-mono">
+                <div className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-sky-500 animate-pulse animate-duration-1000" />
+                  <span className="font-bold uppercase tracking-wider text-sky-400">
+                    PROJECT ID: ANIOBA_30SLD_ABJ
+                  </span>
+                </div>
+                <div className="text-sky-400 uppercase tracking-widest text-[10px] font-bold bg-neutral-900/60 px-2 py-0.5 border border-neutral-850 animate-pulse">
+                  STATUS: ONGOING OPERATIONS // ACTIVE SITE
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                
+                {/* Left Column: Project Details */}
+                <div className="lg:col-span-5 space-y-6">
+                  <div>
+                    <span className="text-[9px] font-extrabold text-[#F59E0B] uppercase tracking-wider font-mono">
+                      MILITARY ACCOMMODATION PALETTE
+                    </span>
+                    <h3 className="text-xl sm:text-2xl font-extrabold font-display text-white tracking-tight uppercase mt-1 leading-tight">
+                      30 Soldiers Hostel Development
+                    </h3>
+                    <div className="flex items-center gap-2 mt-3 text-sky-400">
+                      <LucideIcon name="MapPin" size={14} />
+                      <span className="text-xs font-medium font-sans text-neutral-300">
+                        Tunga Maji Extension Anagada, Abuja (FCT)
+                      </span>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-neutral-400 leading-relaxed font-sans">
+                    We are actively building this 30-capacity Soldiers Hostel under tight structural guidelines. The scope entails the implementation of robust concrete blockwork, advanced foundation layouts, critical subgrade preparation, reinforcing tie-beams, and modern mechanical, electrical, and plumbing engineering interfaces suitable for housing personnel.
+                  </p>
+
+                  {/* Key specs grid */}
+                  <div className="grid grid-cols-2 gap-4 pt-2 border-t border-dashed border-neutral-800">
+                    <div className="p-3 bg-neutral-900/50 border border-neutral-850">
+                      <p className="text-[9px] font-mono font-bold text-neutral-500 uppercase">
+                        Structure Type
+                      </p>
+                      <p className="text-xs font-bold font-mono text-white mt-0.5">
+                        Multi-Bed Hostelry
+                      </p>
+                    </div>
+                    <div className="p-3 bg-neutral-900/50 border border-neutral-850">
+                      <p className="text-[9px] font-mono font-bold text-neutral-500 uppercase">
+                        Active Stage
+                      </p>
+                      <p className="text-xs font-bold font-mono text-white mt-0.5">
+                        Framing &amp; Lintel Block
+                      </p>
+                    </div>
+                    <div className="p-3 bg-neutral-900/50 border border-neutral-850">
+                      <p className="text-[9px] font-mono font-bold text-neutral-500 uppercase">
+                        Material Quality
+                      </p>
+                      <p className="text-xs font-bold font-mono text-sky-400 mt-0.5">
+                        High Density Cast
+                      </p>
+                    </div>
+                    <div className="p-3 bg-neutral-900/50 border border-neutral-850">
+                      <p className="text-[9px] font-mono font-bold text-neutral-500 uppercase">
+                        Target Duration
+                      </p>
+                      <p className="text-xs font-bold font-mono text-white mt-0.5">
+                        On-Schedule Delivery
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Trust guarantee seal */}
+                  <div className="flex items-center gap-3.5 p-3.5 bg-neutral-900 border-l-2 border-sky-400 border-y border-r border-neutral-850">
+                    <LucideIcon name="ShieldCheck" size={18} className="text-sky-400" />
+                    <p className="text-[11px] text-neutral-400 font-sans leading-relaxed">
+                      Rigid oversight provided by Mr. Ismail Ayoyinka Adebayo (Planning &amp; Technical Director).
+                    </p>
+                  </div>
+                </div>
+
+                {/* Right Column: Single Photo Layout */}
+                <div className="lg:col-span-7">
+                  
+                  {/* Image Card */}
+                  <div 
+                    className="bg-neutral-900 border border-neutral-800 p-3 hover:border-sky-400 group/img transition-all duration-300 relative cursor-pointer"
+                    onClick={() => setActiveProjectImage("https://imgur.com/weoOJtA.png")}
+                    id="project-image-has1"
+                  >
+                    <p className="text-[9px] font-mono font-bold text-neutral-500 mb-2 flex justify-between items-center bg-neutral-950 p-1.5 border border-neutral-850">
+                      <span>ELEVATION ANGLE_01 // ACTIVE CONSTRUCT</span>
+                      <span className="text-sky-400">ZOOM IMAGE</span>
+                    </p>
+                    <div className="relative aspect-[16/10] bg-neutral-950 overflow-hidden">
+                      <img 
+                        src="https://imgur.com/weoOJtA.png" 
+                        alt="30 Soldiers Hostel Project at Tunga Maji Extension Anagada" 
+                        className="w-full h-full object-cover grayscale group-hover/img:grayscale-0 group-hover/img:scale-105 transition-all duration-500"
+                        referrerPolicy="no-referrer"
+                      />
+                      <div className="absolute inset-0 bg-black/10 group-hover/img:bg-transparent transition-colors pointer-events-none" />
+                      
+                      {/* Active green scan marker */}
+                      <div className="absolute bottom-3 left-3 bg-neutral-950/90 border border-neutral-800 text-[9px] font-mono uppercase px-2 py-1 text-white flex items-center gap-2">
+                        <span className="h-1.5 w-1.5 bg-sky-400 rounded-full animate-ping" />
+                        <span>TUNGA MAJI FIELD STATION</span>
+                      </div>
+                    </div>
+                    <div className="mt-2.5 flex items-center justify-between text-[11px] font-sans text-neutral-400">
+                      <span className="font-mono text-[9px] text-sky-400">HOSTEL STRUCTURE FOUNDATION &amp; WORKFORCE ASSEMBLY</span>
+                      <LucideIcon name="Eye" size={12} className="text-neutral-500 group-hover/img:text-sky-400 transition-colors" />
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
       {/* ================= WHY CHOOSE US ================= */}
       <section
         id="why-choose-us-section"
@@ -1100,6 +1400,46 @@ export default function App() {
         onClose={() => setActiveServiceModal(null)}
         onSelectServiceForQuote={handleSelectServiceForQuote}
       />
+
+      {/* ================= LIGHTBOX DYNAMIC INTERACTIVE GALLERY ================= */}
+      {activeProjectImage && (
+        <div 
+          className="fixed inset-0 bg-black/90 backdrop-blur-sm z-[9999] flex items-center justify-center p-4 sm:p-6 md:p-8 animate-fadeIn cursor-pointer"
+          onClick={() => setActiveProjectImage(null)}
+          id="project-lightbox-overlay"
+        >
+          <div className="absolute top-4 right-4 z-[10000] flex items-center gap-3">
+            <span className="px-2.5 py-1 bg-neutral-900/80 border border-neutral-700 text-white font-mono text-[10px] uppercase font-bold tracking-widest hidden sm:inline-block">
+              134 Battalion NCO Housing Project
+            </span>
+            <button 
+              className="p-2.5 bg-[#F59E0B] hover:bg-white text-black transition-colors border border-transparent rounded-none cursor-pointer"
+              onClick={() => setActiveProjectImage(null)}
+              aria-label="Close lightbox"
+            >
+              <LucideIcon name="X" size={18} className="stroke-[2.5]" />
+            </button>
+          </div>
+          
+          <div 
+            className="relative max-w-5xl w-full h-full max-h-[85vh] flex items-center justify-center cursor-default bg-neutral-950 p-1 sm:p-2 border border-neutral-850"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Corner styling elements */}
+            <div className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#F59E0B]" />
+            <div className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#F59E0B]" />
+            <div className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#F59E0B]" />
+            <div className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#F59E0B]" />
+
+            <img
+              src={activeProjectImage}
+              alt="Project High Resolution Expand View"
+              className="max-w-full max-h-full object-contain"
+              referrerPolicy="no-referrer"
+            />
+          </div>
+        </div>
+      )}
 
     </div>
   );
