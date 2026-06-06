@@ -276,7 +276,7 @@ export default function App() {
                   <img
                     src="https://imgur.com/zQicnQF.png"
                     alt="Electrical Engineer doing solar maintenance"
-                    className="w-full h-full object-cover grayscale opacity-90 contrast-125"
+                    className="w-full h-full object-cover opacity-95"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
@@ -344,7 +344,7 @@ export default function App() {
                   <img
                     src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80"
                     alt="Contracting project supervisor with safety helmet"
-                    className="w-full h-full object-cover grayscale brightness-95"
+                    className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
                   />
                 </div>
@@ -354,7 +354,7 @@ export default function App() {
                   <img
                     src="https://imgur.com/hSkz64y.png"
                     alt="Modern house high voltage cables and testing"
-                    className="w-full h-full object-cover grayscale h-full contrast-125"
+                    className="w-full h-full object-cover h-full"
                     referrerPolicy="no-referrer"
                   />
                 </div>
@@ -514,7 +514,7 @@ export default function App() {
                       <img
                         src={founder.image}
                         alt={founder.name}
-                        className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                        className="w-full h-full object-cover transition-all duration-500"
                         referrerPolicy="no-referrer"
                       />
                       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent p-4 flex flex-col justify-end h-20">
@@ -583,7 +583,7 @@ export default function App() {
                     <img
                       src={service.image}
                       alt={service.title}
-                      className="w-full h-full object-cover grayscale opacity-90 contrast-125 group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       referrerPolicy="no-referrer"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/60 to-transparent" />
@@ -857,10 +857,10 @@ export default function App() {
                       <img 
                         src="https://imgur.com/KfSz51J.png" 
                         alt="134 Battalion Odogunyan Project Angle 1" 
-                        className="w-full h-full object-cover grayscale group-hover/img:grayscale-0 group-hover/img:scale-105 transition-all duration-500"
+                        className="w-full h-full object-cover group-hover/img:scale-105 transition-all duration-500"
                         referrerPolicy="no-referrer"
                       />
-                      <div className="absolute inset-0 bg-black/10 group-hover/img:bg-transparent transition-colors pointer-events-none" />
+                      <div className="absolute inset-0 bg-black/5 group-hover/img:bg-transparent transition-colors pointer-events-none" />
                     </div>
                     <div className="mt-2.5 flex items-center justify-between text-[11px] font-sans text-neutral-400">
                       <span className="font-mono text-[9px] text-[#F59E0B]">NCO BLOCK FRONTAGE</span>
@@ -882,10 +882,10 @@ export default function App() {
                       <img 
                         src="https://imgur.com/Ln3CDdV.png" 
                         alt="134 Battalion Odogunyan Project Angle 2" 
-                        className="w-full h-full object-cover grayscale group-hover/img:grayscale-0 group-hover/img:scale-105 transition-all duration-500"
+                        className="w-full h-full object-cover group-hover/img:scale-105 transition-all duration-500"
                         referrerPolicy="no-referrer"
                       />
-                      <div className="absolute inset-0 bg-black/10 group-hover/img:bg-transparent transition-colors pointer-events-none" />
+                      <div className="absolute inset-0 bg-black/5 group-hover/img:bg-transparent transition-colors pointer-events-none" />
                     </div>
                     <div className="mt-2.5 flex items-center justify-between text-[11px] font-sans text-neutral-400">
                       <span className="font-mono text-[9px] text-[#F59E0B]">NCO BLOCK COMPLEMENTARY</span>
@@ -1000,10 +1000,10 @@ export default function App() {
                       <img 
                         src="https://imgur.com/weoOJtA.png" 
                         alt="30 Soldiers Hostel Project at Tunga Maji Extension Anagada" 
-                        className="w-full h-full object-cover grayscale group-hover/img:grayscale-0 group-hover/img:scale-105 transition-all duration-500"
+                        className="w-full h-full object-cover group-hover/img:scale-105 transition-all duration-500"
                         referrerPolicy="no-referrer"
                       />
-                      <div className="absolute inset-0 bg-black/10 group-hover/img:bg-transparent transition-colors pointer-events-none" />
+                      <div className="absolute inset-0 bg-black/5 group-hover/img:bg-transparent transition-colors pointer-events-none" />
                       
                       {/* Active green scan marker */}
                       <div className="absolute bottom-3 left-3 bg-neutral-950/90 border border-neutral-800 text-[9px] font-mono uppercase px-2 py-1 text-white flex items-center gap-2">
