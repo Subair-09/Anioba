@@ -352,7 +352,7 @@ export default function App() {
                 {/* Photo 2: Wiring assembly installation */}
                 <div className="absolute bottom-[-15px] right-0 rounded-none overflow-hidden shadow-xl border-4 border-white aspect-video w-3/5 bg-neutral-150">
                   <img
-                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=400&q=80"
+                    src="https://imgur.com/hSkz64y.png"
                     alt="Modern house high voltage cables and testing"
                     className="w-full h-full object-cover grayscale h-full contrast-125"
                     referrerPolicy="no-referrer"
@@ -579,7 +579,7 @@ export default function App() {
               >
                 <div>
                   {/* Photo Banner with tag */}
-                  <div className="relative h-48 w-full overflow-hidden">
+                  <div className="relative h-56 sm:h-64 w-full overflow-hidden">
                     <img
                       src={service.image}
                       alt={service.title}

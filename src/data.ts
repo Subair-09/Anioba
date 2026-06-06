@@ -7,7 +7,7 @@ export const SERVICES: Service[] = [
     description: "End-to-end safe, modern, and compliant electrical wiring solutions for custom residential builds & high-capacity heavy industries.",
     detailedDescription: "Our certified electrical engineers provide comprehensive wiring installations. From architectural planning and cable tray designs to final smart board fittings, termination, and live testing. We adhere strictly to national code standards and use premium, fire-resistant insulation materials.",
     iconName: "Zap",
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80",
+    image: "https://imgur.com/hSkz64y.png",
     features: [
       "Residential Smart Home Integration",
       "Industrial Power Distribution Systems",
@@ -21,7 +21,7 @@ export const SERVICES: Service[] = [
     description: "Sophisticated hybrid and off-grid solar energy systems utilizing premium photovoltaic cells and clean smart inverter storage cells.",
     detailedDescription: "Empower your home or warehouse with absolute energy independence. We design, install, and align high-efficiency premium solar panels coupled with smart lithium-ion storage arrays (Tesla, Huawei certified). Say goodbye to billing shocks and rolling grid outages with real-time solar yield tracking.",
     iconName: "Sun",
-    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    image: "https://imgur.com/x8X7Lys.png",
     features: [
       "High-Yield PV Panel Alignments",
       "Off-Grid & Grid-Tied Hybrid Storage",

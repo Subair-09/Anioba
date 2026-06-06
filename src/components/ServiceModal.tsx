@@ -45,7 +45,7 @@ export const ServiceModal: React.FC<ServiceModalProps> = ({
             </button>
 
             {/* Banner Image */}
-            <div className="relative h-64 sm:h-72 w-full overflow-hidden">
+            <div className="relative h-72 sm:h-96 w-full overflow-hidden">
               <img
                 src={service.image}
                 alt={service.title}
