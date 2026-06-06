@@ -94,7 +94,7 @@ export const QuoteForm: React.FC<QuoteFormProps> = ({
     const isPlaceholder = endpoint.includes("placeholder_anioba") || !endpoint;
 
     // Build WhatsApp Preformed Message template
-    const rawMessage = `Hello Anioba Multipurpose Enterprise!
+    const rawMessage = `Hello Anioba Multipurpose!
 
 I just submitted a quote request from your premium website. Here are my project details:
 

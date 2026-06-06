@@ -83,7 +83,7 @@ export default function App() {
                 <span className="inline-block w-2.5 h-2.5 bg-[#F59E0B] rotate-45" />
               </div>
               <span className="text-[8px] sm:text-[9.5px] font-bold text-neutral-500 uppercase tracking-widest font-mono block mt-1">
-                Multipurpose Enterprise global ltd
+                Multipurpose Global Ltd
               </span>
             </div>
           </button>
@@ -221,7 +221,7 @@ export default function App() {
 
               {/* Subheadline paragraph */}
               <p className="text-sm sm:text-base text-neutral-600 leading-relaxed max-w-2xl font-sans">
-                ANIOBA Multipurpose Enterprise global ltd delivers reliable electrical, solar, construction, and contracting solutions for homes, industries, and commercial projects across structural frameworks.
+                ANIOBA Multipurpose Global Ltd delivers reliable electrical, solar, construction, and contracting solutions for homes, industries, and commercial projects across structural frameworks.
               </p>
 
               {/* Badges / Micro bullet proofs */}
@@ -493,7 +493,7 @@ export default function App() {
                 The Founders & Executive Directors
               </h3>
               <p className="text-xs sm:text-sm text-neutral-500 leading-relaxed font-sans">
-                Our enterprise is steered by industry-hardened professionals committed to uncompromising structural guidelines, logistics operations, and certified electrical compliance.
+                Our firm is steered by industry-hardened professionals committed to uncompromising structural guidelines, logistics operations, and certified electrical compliance.
               </p>
             </div>
 
@@ -1115,7 +1115,7 @@ export default function App() {
               Client Reports
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold font-display text-neutral-900 tracking-tight uppercase">
-              Trusted by Outstanding Enterprise Owners
+              Trusted by Corporate & Business Owners
             </h2>
             <p className="text-xs sm:text-sm text-neutral-500 font-sans leading-relaxed">
               Read how developers, architects, and warehouse operations specialists evaluate our performance.
@@ -1237,7 +1237,7 @@ export default function App() {
                   </p>
                 </div>
                 <a
-                  href="https://wa.me/2349032791481?text=Hello%20ANIOBA%20Multipurpose%20Enterprise%20global%20ltd!%20I%20have%20an%20urgent%20project%20inquiry%20and%2520would%252520like%252520to%252520discuss."
+                  href="https://wa.me/2349032791481?text=Hello%20ANIOBA%20Multipurpose%20Global%20Ltd!%20I%20have%20an%20urgent%20project%20inquiry%20and%2520would%252520like%252520to%252520discuss."
                   target="_blank"
                   rel="noreferrer"
                   className="px-4 py-3 bg-[#F59E0B] hover:bg-white text-black hover:text-black rounded-none text-xs font-mono font-extrabold uppercase tracking-widest transition-colors shrink-0 shadow-md"
@@ -1287,7 +1287,7 @@ export default function App() {
                     <span className="inline-block w-1.5 h-1.5 bg-[#F59E0B]" />
                   </div>
                   <span className="text-[9px] font-extrabold text-neutral-500 uppercase tracking-widest font-mono block mt-1">
-                    Multipurpose Enterprise global ltd
+                    Multipurpose Global Ltd
                   </span>
                 </div>
               </button>
@@ -1380,7 +1380,7 @@ export default function App() {
           {/* Copyright signature */}
           <div className="mt-12 pt-8 border-t border-neutral-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-neutral-550 font-sans">
             <div>
-              <p>&copy; {new Date().getFullYear()} ANIOBA Multipurpose Enterprise global ltd. All Technical Rights Reserved.</p>
+              <p>&copy; {new Date().getFullYear()} ANIOBA Multipurpose Global Ltd. All Technical Rights Reserved.</p>
               <p className="text-[11px] text-neutral-500 mt-1">
                 Designed &amp; Developed by <span className="text-[#F59E0B] font-mono">Quotients Digital Horizon Ltd</span>
               </p>

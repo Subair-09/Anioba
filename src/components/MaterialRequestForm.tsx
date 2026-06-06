@@ -161,7 +161,7 @@ export const MaterialRequestForm: React.FC = () => {
       });
     }
 
-    const message = `Hello Anioba Multipurpose Enterprise Global Ltd,
+    const message = `Hello Anioba Multipurpose Global Ltd,
 
 Good day. I came across your business and I would like to make an enquiry about your electrical and plumbing materials/services. Kindly let me know more about your products, pricing, and delivery options.
 
